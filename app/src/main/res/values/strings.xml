@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Easy Agents</string>
+    <string name="et_phone">Phone</string>
+    <string name="et_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="tv_dont_have_account">Don\'t have an account ?</string>
+    <string name="tv_register">Register</string>
+    <string name="et_name">Name</string>
+    <string name="et_confirm_password">Confirm Password</string>
+    <string name="tv_user_type">User Type :</string>
+    <string name="rb_distributor">Distributor</string>
+    <string name="rb_agent">Agent</string>
+    <string name="btn_register">Register</string>
+    <string name="tv_already_have_account">Already have an account ?</string>
+    <string name="tv_login">Login</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "792021430563",
+    "project_id": "easyagents-a9b2d",
+    "storage_bucket": "easyagents-a9b2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792021430563:android:7e5ea3f200ed3fbcbb9c96",
+        "android_client_info": {
+          "package_name": "com.example.easyagents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792021430563-slbtt6sesc7bfen88pcgpt4n577d0ldc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYA1w6lT6PR7vYqJ3dwFQ5DRIgzR9fll4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792021430563-slbtt6sesc7bfen88pcgpt4n577d0ldc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
