@@ -8,7 +8,7 @@ import com.google.firebase.firestore.FirebaseFirestore
 
 class RegisterActivity : AppCompatActivity() {
 
-    lateinit var db: FirebaseFirestore
+    private lateinit var db: FirebaseFirestore
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
@@ -30,16 +30,16 @@ class RegisterActivity : AppCompatActivity() {
         }
 
         btnRegister.setOnClickListener {
-            if (etName.text.toString().isEmpty() || etPhone.text.toString()
+            msg = if (etName.text.toString().isEmpty() || etPhone.text.toString()
                     .isEmpty() || etPassword.text.toString()
                     .isEmpty() || etConfirmPassword.text.toString()
                     .isEmpty() || rbUserType.checkedRadioButtonId == -1
             ) {
-                msg = "the field is empty"
-            }else if (etPassword.text.toString().equals(etConfirmPassword.text.toString())){
-                msg = "the password doesn't match"
+                "the field is empty"
+            }else if (etPassword.text.toString() == etConfirmPassword.text.toString()){
+                "the password doesn't match"
             }else{
-                msg = "the data will be submitted"
+                "the data will be submitted"
             }
             Toast.makeText(this, msg, Toast.LENGTH_SHORT).show()
         }
